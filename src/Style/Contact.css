@@ -1,0 +1,46 @@
+/* ContactPerson.css */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.person-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.person-image {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.person-details {
+  flex-grow: 1;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    max-width: 100%;
+  }
+
+  .person-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .person-image {
+    margin-bottom: 10px;
+  }
+}

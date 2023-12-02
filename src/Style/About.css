@@ -1,0 +1,29 @@
+.about {
+  text-align: center;
+}
+
+.hero {
+  background-color: #3498db;
+  color: white;
+  padding: 50px;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.tentang {
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 30px;
+  }
+}

@@ -1,0 +1,122 @@
+/* Analysis.css */
+.analysis-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.symptoms-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: 12rem;
+}
+
+input {
+  display: flex;
+  margin-bottom: -1rem;
+}
+
+label {
+  margin-left: 2rem;
+}
+
+.result-container {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style Konsul.js */
+/* Konsul.css */
+.konsul-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.label-konsul {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.input-konsul {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button-konsul {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button-konsul:hover {
+  background-color: #0056b3;
+}
+
+.h3-konsul {
+  margin-top: 20px;
+  color: #333;
+}
+
+.p-konsul {
+  color: #555;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+  .analysis-container {
+    margin: 10px;
+  }
+  .konsul-container {
+    max-width: 80%;
+  }
+
+  .input-konsul {
+    width: calc(100% - 16px);
+  }
+}

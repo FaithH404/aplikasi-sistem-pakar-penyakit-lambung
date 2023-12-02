@@ -1,0 +1,35 @@
+.feature-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /* Mengubah arah dari kolom ke baris */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  max-width: 300px; /* Menambahkan lebar maksimum untuk menjaga responsivitas */
+}
+
+.feature-card:hover {
+  transform: scale(1.1); /* Skala kartu saat dihover */
+}
+
+.icon {
+  font-size: 36px;
+  margin-right: 10px; /* Menambahkan margin antara ikon dan teks */
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
