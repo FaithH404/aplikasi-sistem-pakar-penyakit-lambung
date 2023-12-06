@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aplikasi-sistem-pakar-penyakit-lambung/static/css/main.e94e64f2.css",
+    "main.js": "/aplikasi-sistem-pakar-penyakit-lambung/static/js/main.434ca4ea.js",
+    "static/js/787.94648be6.chunk.js": "/aplikasi-sistem-pakar-penyakit-lambung/static/js/787.94648be6.chunk.js",
+    "static/media/logo.png": "/aplikasi-sistem-pakar-penyakit-lambung/static/media/logo.923a556615288bc949f4.png",
+    "static/media/mine-craft.jpg": "/aplikasi-sistem-pakar-penyakit-lambung/static/media/mine-craft.ff02f09e2c7ee603f041.jpg",
+    "index.html": "/aplikasi-sistem-pakar-penyakit-lambung/index.html",
+    "main.e94e64f2.css.map": "/aplikasi-sistem-pakar-penyakit-lambung/static/css/main.e94e64f2.css.map",
+    "main.434ca4ea.js.map": "/aplikasi-sistem-pakar-penyakit-lambung/static/js/main.434ca4ea.js.map",
+    "787.94648be6.chunk.js.map": "/aplikasi-sistem-pakar-penyakit-lambung/static/js/787.94648be6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e94e64f2.css",
+    "static/js/main.434ca4ea.js"
+  ]
+}
